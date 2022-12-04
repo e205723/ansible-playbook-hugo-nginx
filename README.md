@@ -24,4 +24,5 @@
     ```
 - 「11\.1」の課題で作成したVMが起動していることを確認したら次のコマンドを実行する
 - `$ ansible-playbook -i inventories/hosts site.yml --ask-become-pass`
+  - VMのパスワードが要求されるので入力する
 - `$ ssh -L xxxx:localhost:80 -N fedora`\(xxxxの例: 8080など\)を実行して、ローカルPCで「`http://localhost:xxxx`」にアクセスするとブログが見れる
