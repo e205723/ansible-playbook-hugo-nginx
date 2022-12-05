@@ -11,7 +11,7 @@
 - `./inventories/hosts`の中身を以下のように自分のVMに合わせて記述する
   - ansible_ssh_userとuser_nameの中身は各個人で違う\(ysanoではなく別の値\) ので編集しよう
     - ansible_ssh_userとuser_nameは2つとも同じ値にすること
-  - ansibleでのhugo + nginxのセットアップでは、hugoのサイトのレポジトリは「1\.4」で使った「`hugo-template`」を使う
+  - ansibleでのhugo + nginxのセットアップでは、hugoのサイトのレポジトリは「1\.4」で使った「[hugo-template](https://gitlab.ie.u-ryukyu.ac.jp/ie-web/hugo-template/hugo-template)」を使う
   - ```
     [all]
     fedora
